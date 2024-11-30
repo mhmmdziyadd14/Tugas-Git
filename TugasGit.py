@@ -40,3 +40,9 @@ data_panen = {
     }
   }
 }
+
+#No 1
+for i,j in data_panen.items():
+    print(f"Nama Lokasi: {j['nama_lokasi']} \nHasil Panen:") 
+    print(f"Padi: {j['hasil_panen']['padi']}, Jagung: {j['hasil_panen']['jagung']}, Kedelai: {j['hasil_panen']['kedelai']}") 
+    print() 
