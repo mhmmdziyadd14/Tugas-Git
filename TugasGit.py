@@ -60,3 +60,12 @@ j_hasil_kedelai=[]
 for i in data_panen.values():
     j_hasil_padi.append(i['hasil_panen']['padi'])
     j_hasil_kedelai.append(i['hasil_panen']['kedelai'])
+
+#No 6
+for h in data_panen.values():
+    if h['hasil_panen']['padi'] > 1300 or h['hasil_panen']['jagung'] > 800:
+        print(f"{h['nama_lokasi']} harus mendapatkan perhatian khusus.")
+    else:
+        print(f"{h['nama_lokasi']} dalam kondisi baik.") 
+  
+print ("Data Panen di Indonesia")  
