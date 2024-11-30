@@ -52,3 +52,11 @@ print(f"Hasil jagung dari Lokasi 2: {data_panen['lokasi2']['hasil_panen']['jagun
 
 #No 3
 print(f"Nama Lokasi 3: {data_panen['lokasi3']['nama_lokasi']}")
+
+#No 4 & 5
+j_hasil_padi=[]
+j_hasil_kedelai=[]
+
+for i in data_panen.values():
+    j_hasil_padi.append(i['hasil_panen']['padi'])
+    j_hasil_kedelai.append(i['hasil_panen']['kedelai'])
