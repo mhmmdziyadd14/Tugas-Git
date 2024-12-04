@@ -67,4 +67,5 @@ for h in data_panen.values():
         print(f"{h['nama_lokasi']} harus mendapatkan perhatian khusus.")
     else:
         print(f"{h['nama_lokasi']} dalam kondisi baik.") 
-    
+  
+print ("Data Panen di Indonesia sangat baik.")  
